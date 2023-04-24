@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Binární kvíz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body id="body">
+    <div id="main_okno">
+        <div id="vyber_okno"></div>
+        <div id="detaily">
+            <h1>Správně: <span id="spravne">-</span></h1>
+            <h1>Špatně: <span id="spatne">-</span></h1>
+            <h1>test: <span id="testvysledek">-</span></h1>
+        </div>
+        <div id="priklady">
+            <table id="zobrazeni_prikladu">
+                <tr>
+                  <td id="priklad1" class="priklady">1010101</td>
+                </tr>
+                <tr>
+                  <td id="priklad2" class="priklady">01101010</td>
+                </tr>
+                <tr>
+                  <td id="vysledek" class="priklady">101010</td>
+                </tr>
+
+              </table>
+        </div>
+        <div id="buttony01" class="btn">
+          <input type="button" id="moznost1" class="buttons" value="1" />
+
+          <input type="button" id="moznost2" class="buttons" value="0" />
+        </div>
+        <div id="buttony2" class="btn">
+          <button  id="dalsi_priklad" class="buttons">Další příklad</button>
+          <button  id="zpet" class="buttons">Zpět na začátek</button>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>               
+

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+#body {
+    display: flex;
+    justify-content: center;
+}
+#main_okno {
+    display: grid;
+    border: 0.2vw solid black;
+    border-radius: 2vw;
+    height: 50%;
+    width: 50%;
+    max-width: 50vw;
+    min-height: 50vh;
+}
+#detaily {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 0;
+}
+#priklady {
+    border: 2px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.priklady {
+    font-size: 2vw;
+}
+#buttony01 {
+
+}
+#buttony2 {
+    display: none;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    border-radius: 1.5vw;
+    background-color: rgb(10, 249, 10);
+    min-width: 8vw;
+    font-size: 2vw;
+    padding: 0;
+    max-height: 8vh;
+}
